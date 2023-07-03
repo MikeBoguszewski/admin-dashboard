@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link href="styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
 </head>
+
 <body>
-    
+    <div class="sidebar">
+        <div class="dashboard">
+            <img src="/icons/view-dashboard.svg" class="dashboard-image">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="main-sidebar">
+            <img src="/icons/home.svg">
+            <h2>Home</h2>
+            <img src="/icons/card-account-details.svg">
+            <h2>Profile</h2>
+            <img src="/icons/message.svg">
+            <h2>Messages</h2>
+            <img src="/icons/clock-time-three.svg">
+            <h2>History</h2>
+            <img src="/icons/note-multiple.svg">
+            <h2>Tasks</h2>
+            <img src="/icons/account-group.svg">
+            <h2>Communities</h2>
+        </div>
+        <div class="secondary-sidebar">
+            <img src="/icons/cog.svg">
+            <h2>Settings</h2>
+            <img src="/icons/help-box.svg">
+            <h2>Support</h2>
+            <img src="/icons/shield-check.svg">
+            <h2>Privacy</h2>
+        </div>
+    </div>
+    <header>
+        <div class="top-header">
+            <div class="search">
+                <img src="/icons/magnify.svg" class="search-icon">
+                <input type="search" name="search" id="searchbar">
+            </div>
+            <div class="profile">
+                <img src="/icons/bell-ring-outline.svg" class="notification-bell">
+                <img src="/profiles/puppy.png" class="profile-picture">
+                <h2>Morgan Oakley</h2>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="greeting-container">
+                <img src="/profiles/puppy.png" class="large-profile-picture">
+                <div class="greeting">
+                    <p>Hi there,</p>
+                    <h1>Morgan Oakley (@morgan)</h1>
+                </div>
+            </div>
+            <button>New</button>
+            <button style="margin-left: 30px;">Upload</button>
+            <button style="margin-left: 30px;">Share</button>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="projects-container">
+            <h2>Your Projects</h2>
+            <div class="projects">
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident neque quisquam, sunt corrupti
+                        laborum ut aperiam iure dolor magni tempore.</p>
+                    <div class="project-icons">
+                        <img src="/icons/star-plus-outline.svg">
+                        <img src="/icons/eye-plus-outline.svg">
+                        <img src="/icons/source-fork.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-container">
+            <h2>Announcements</h2>
+            <div class="announcements">
+                <h3>Site Maintenance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur soluta odio dolore quod
+                    perferendis.</p>
+                <h3>Community Share Day</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita consequatur mollitia
+                    exercitationem sint impedit.</p>
+                <h3>Updated Privacy Policy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, repudiandae nisi. Maiores dolorum
+                    maxime voluptatum?</p>
+            </div>
+            <div>
+                <h2>Trending</h3>
+                    <div class="trending">
+                        <div class="trending-info">
+                            <img src="/profiles/joe-biden.png">
+                            <p>@joebiden</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                        <div class="trending-info">
+                            <img src="profiles/puppy.png">
+                            <p>@morgan</p>
+                            <p>Super Cool Project</p>
+                        </div>
+                        <div class="trending-info">
+                            <img src="profiles/leonardo-dicaprio.png">
+                            <p>@leonardodicaprio</p>
+                            <p>Head of Finance</p>
+                        </div>
+                        <div class="trending-info">
+                            <img src="/profiles/elon.png">
+                            <p>@elonmusk</p>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
